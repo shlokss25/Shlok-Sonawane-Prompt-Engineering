@@ -161,3 +161,77 @@ The refinement process demonstrated that prompt quality directly influences outp
 ### 1.3 Role and Context Analysis
 
 Role assignment and context setting significantly improved the quality of responses. In Scenario A, assigning the model the role of an elementary school teacher encouraged the use of simple language and relatable analogies. In Scenario C, assigning the role of a professional marketing copywriter resulted in more persuasive and audience-focused taglines. Context provided information about the intended audience and goals, helping the model generate responses that were more relevant, accurate, and useful.
+
+
+## Part 2: Temperature & Parameter Control
+
+### 2.1 Temperature Experimentation
+
+**Chosen Task:** Creating a short science fiction story opening (2–3 sentences)
+
+**Base Prompt:**
+
+Write the opening of a science fiction story in 2–3 sentences.
+
+---
+
+### Test 1: Low Temperature (0.2)
+
+**Prompt Used:**
+
+Write the opening of a science fiction story in 2–3 sentences. Be precise and consistent.
+
+**Temperature Value:** 0.2
+
+**Output:**
+
+In the year 2150, scientists established the first permanent research station on Mars. The station's artificial intelligence system monitored all operations and ensured efficient use of resources. One day, the system detected an unexplained signal coming from beneath the planet's surface.
+
+---
+
+### Test 2: Medium Temperature (0.7)
+
+**Prompt Used:**
+
+Write the opening of a science fiction story in 2–3 sentences.
+
+**Temperature Value:** 0.7
+
+**Output:**
+
+When Maya arrived on Mars, she expected dust storms and scientific experiments, not mysterious lights appearing on the horizon every night. As the colony's researchers struggled to explain the phenomenon, Maya discovered a clue that hinted at a hidden civilization beneath the planet's surface.
+
+---
+
+### Test 3: High Temperature (1.2)
+
+**Prompt Used:**
+
+Write the opening of a science fiction story in 2–3 sentences. Be creative and explore diverse ideas.
+
+**Temperature Value:** 1.2
+
+**Output:**
+
+At exactly midnight, the Moon began singing in hundreds of forgotten languages, and every radio in the solar system echoed its melody. While floating cities drifted across Neptune's oceans, a young inventor named Zara realized that the song was actually a map leading beyond the edge of known space.
+
+---
+
+### Comparison Table
+
+| Feature | Low Temperature (0.2) | Medium Temperature (0.7) | High Temperature (1.2) |
+|----------|----------|----------|----------|
+| Creativity | Low | Moderate | Very High |
+| Predictability | Very High | Medium | Low |
+| Consistency | Very High | High | Moderate |
+| Imagination | Limited | Balanced | Extensive |
+| Writing Style | Factual | Engaging | Highly Creative |
+| Best Use Case | Technical Content | General Content Creation | Brainstorming and Creative Writing |
+
+---
+
+### 2.2 Analysis & Recommendations
+
+Low temperature settings are most useful when accuracy and consistency are important. Two examples include technical documentation and business reports, where predictable and reliable responses are required. High temperature settings are most useful when creativity is desired. Examples include marketing campaigns and creative storytelling, where generating unique ideas is valuable.
+
+For this experiment, the medium temperature setting worked best. It produced a story that was creative and engaging while remaining logical and easy to follow. The low temperature output was accurate but less imaginative, while the high temperature output was highly creative but somewhat unpredictable. Therefore, the medium temperature setting provided the best balance between creativity and coherence.

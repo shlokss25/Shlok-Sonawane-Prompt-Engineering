@@ -78,7 +78,7 @@ Thank you very much for offering me the position. I appreciate the time and effo
 After careful consideration, I have decided not to accept the offer at this time. I am grateful for the opportunity and wish the company continued success.
 
 Sincerely,
-[Name]
+Shlok Sonawane
 
 #### Version 3 Prompt
 
@@ -100,7 +100,7 @@ Thank you again for your understanding and support.
 
 Kind regards,
 
-[Your Name]
+Shlok Sonawane
 
 #### Iteration Documentation
 
